@@ -1,4 +1,4 @@
-# Finding Heavy Traffic Indicators on I-94
+# Daily Exchange Rates per Euro 1999-2021
 
 ## Table of contents
 * [About](#about)
@@ -8,13 +8,15 @@
 
 
 ## About:
-This project is about a dataset of the westbound traffic on the [I-94 Interstate highway](https://en.wikipedia.org/wiki/Interstate_94).
+The dataset we'll use describes Euro daily exchange rates between 1999 and 2021. The euro (symbolized with €) is the official currency in most of the countries of the European Union.
+
+If the exchange rate of the euro to the US dollar is 1.5, you get 1.5 US dollars if you pay 1.0 euro (one euro has more value than one US dollar at this exchange rate).
 
 ## Note:
-John Hogue made the dataset available, and you can download it from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume).
+Daria Chemkaeva put together the data set and made it available on [Kaggle](https://www.kaggle.com/lsind18/euro-exchange-daily-rates-19992020) — the data source is the European Central Bank. Note that the dataset gets regular updates — we downloaded it on January 2021.
 
 ## Goals:
-The aim of this project is to determine a few indicators of heavy traffic on I-94. These indicators can be weather type, time of the day, time of the week, etc. For instance, we may find out that the traffic is usually heavier in the summer or when it snows.
+The aim of this project is to determine time series of foreign exchange rates per 1 Euro.
 
 ## Technologies:
 Project is created with:
